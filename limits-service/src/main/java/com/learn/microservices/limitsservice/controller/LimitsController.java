@@ -12,10 +12,10 @@ public class LimitsController {
     @Autowired
     private LimitsConfiguration configuration;
 
-    @GetMapping("/test")
-    public String test(){
-        return  "Hi";
-    }
+//    @GetMapping("/test")
+//    public String test(){
+//        return  "Hi";
+//    }
 
     @GetMapping("/limits")
     public Limits limits(){
